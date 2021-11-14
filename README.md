@@ -16,7 +16,7 @@ Neighbour
 | ---- | ---- | ---------- |
 | user_id   | Integer|  primary_key|
 | email| Varchar(50)| unique, not null |
-| password | Varchar(
+| password | Varchar(50)
 | name | Varchar(50)| nullable |
 | com_method | String(100) | nullable |
 
@@ -43,7 +43,7 @@ Neighbour
 ### Country
 | name | type | constrains |
 | ---- | ---- | ---------- |
-| county_id   | Integer|  primary_key|
+| county_id   | Integer |  primary_key|
 | name_country | Varchar(40) | uniqie, not null |
 
 
