@@ -16,7 +16,7 @@ Neighbour
 | ---- | ---- | ---------- |
 | user_id   | Integer|  primary_key|
 | email| Varchar(50)| unique, not null |
-| password | Varchar(50)
+| password | Varchar(50) | not null |
 | name | Varchar(50)| nullable |
 | com_method | String(100) | nullable |
 
