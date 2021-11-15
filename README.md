@@ -28,6 +28,7 @@ Neighbour
 | com_method | String(100) | nullable |
 | count_likes | Integer | nullable |
 | count_dislikes | Integer | nullable |
+
 `com_method` - Ссылка на предпочитаемый способ связи (Телеграм, ВК и т.д.)
  
  Пользователь может зарегистрироваться без адреса, но для использования основного функционала приложения, он должен указать адрес.
