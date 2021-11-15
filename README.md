@@ -36,8 +36,8 @@ Neighbour
 | name | type | constrains |
 | ---- | ---- | ---------- |
 | neighbour_id | Integer | primary_key |
-| user_id | Integer | unique |
-| adress_id | Integer | unique |
+| user_id | Integer | not null |
+| adress_id | Integer | not null |
 
 ### Adress
 | name | type | constrains |
