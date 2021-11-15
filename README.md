@@ -59,13 +59,13 @@ Neighbour
 | name | type | constrains |
 | ---- | ---- | ---------- |
 | city_id   | Integer|  primary_key|
-| name_city | Varchar(40) | not null |
+| name_city | Varchar(40) | uniqie, not null |
 
 ### Street
 | name | type | constrains |
 | ---- | ---- | ---------- |
-| street_id   | Integer|  primary_key|
-| name_street | Varchar(40) | not null |
+| street_id   | Integer | primary_key|
+| name_street | Varchar(40) | uniqie, not null |
 
 ### Request_info
 | name | type | constrains |
