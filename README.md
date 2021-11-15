@@ -35,7 +35,6 @@ Neighbour
 ### Neighbour
 | name | type | constrains |
 | ---- | ---- | ---------- |
-| neighbour_id | Integer | primary_key |
 | user_id | Integer | not null |
 | adress_id | Integer | not null |
 
@@ -56,18 +55,17 @@ Neighbour
 | county_id   | Integer |  primary_key|
 | name_country | Varchar(40) | uniqie, not null |
 
-
 ### City
 | name | type | constrains |
 | ---- | ---- | ---------- |
 | city_id   | Integer|  primary_key|
-| name_country | Varchar(40) | uniqie, not null |
+| name_city | Varchar(40) | uniqie, not null |
 
 ### Street
 | name | type | constrains |
 | ---- | ---- | ---------- |
 | street_id   | Integer|  primary_key|
-| name_country | Varchar(40) | uniqie, not null |
+| name_street | Varchar(40) | uniqie, not null |
 
 ### Request_info
 | name | type | constrains |
